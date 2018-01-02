@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "declaration": true,
+    "sourceMap": true,
+    "outDir": "./dist",
+    "jsx": "react",
+    "removeComments": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": false,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "noUnusedLocals": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "moduleResolution": "node",
+    "rootDirs": ["src", "tests"],
+    "sourceRoot": "./dist",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  }
+}
